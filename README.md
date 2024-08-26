@@ -18,6 +18,8 @@ This repository contains a basic implementation of a GPT (Generative Pre-trained
 # Getting Started:
 -Install Dependencies: Ensure you have the necessary libraries installed:
 
--Run the Script: You can run the script directly to start training the model on the Tiny Shakespeare dataset:
+  !pip install torch transformers tiktoken tqdm
+
+-Run the Script: You can run the code from top to down sections to start training the model on the Tiny Shakespeare dataset:
 
 -Customization: Modify the GPTConfig class in the script to adjust the model architecture according to your needs.
